@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "completeconfig-base",
+  "version": "${version}",
+
+  "license": "Apache-2.0",
+
+  "environment": "*",
+
+  "depends": {
+    "java": ">=21",
+    "minecraft": "1.21.1",
+    "fabricloader": ">=0.16.14"
+  },
+
+  "custom": {
+    "unofficial_port": "This metadata was updated by JustHari01 for the Minecraft 1.21.1 Fabric compatibility port.",
+    "modmenu": {
+      "badges": [
+        "library"
+      ],
+      "parent": "completeconfig"
+    }
+  }
+}

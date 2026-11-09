@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "completeconfig-gui-yacl",
+  "version": "${version}",
+
+  "license": "Apache-2.0",
+
+  "environment": "client",
+  "entrypoints": {
+    "completeconfig": [
+      "me.lortseam.completeconfig.gui.yacl.Initializer"
+    ]
+  },
+
+  "depends": {
+    "completeconfig-base": "*"
+  },
+
+  "suggests": {
+    "yet_another_config_lib_v3": "*"
+  },
+
+  "custom": {
+    "unofficial_port": "This metadata was updated by JustHari01 for the Minecraft 1.21.1 Fabric compatibility port.",
+    "modmenu": {
+      "badges": [
+        "library"
+      ],
+      "parent": "completeconfig"
+    }
+  }
+}
